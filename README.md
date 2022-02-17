@@ -94,3 +94,15 @@ The tickers we use:
 3. Modify content of the folder `server` - if you want to complete bonus tasks
 4. Commit and push your code to your repository
 5. Send us link to your repository
+
+# Completed test task:
+
+## Main 
+1. application connect to the locally running service
+2. application render price changes for some tickers in real time
+
+## Additional
+1. A modal window has been added, which opens by clicking the "details" button (near each ticker), inside which there is more information about transactions.
+2. Add additional visual effects to highlight positive or negative changes in the prices (added a shadow to blocks of different colors, an arrow down or an arrow up is automatically rendered).
+3. Add possibility to specify interval time by user.
+
