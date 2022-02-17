@@ -1,0 +1,65 @@
+.Modal__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal__content {
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+  background-color: #f9f2e0;
+  padding: 20px;
+}
+
+.Modal__content_increase {
+  box-shadow: inset 10px 15px 10px #8bc34a73;
+  
+}
+
+.Modal__content_decrease {
+  box-shadow: inset 10px 15px 12px #fb707087;
+}
+
+.Modal__title {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.Modal__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Modal__box {
+  height: 35px;
+  width: 80px;
+  padding: 7px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Modal__text {
+  font-size: 8px;
+  margin: 10px 10px 0 15px;
+}
+
+.Modal__elem {
+  margin-top: 0;
+}
+
+.Modal__elem_minSize {
+  font-size: 10px;
+}
+
+.Modal__elem_minSize p {
+  margin: 0;
+}

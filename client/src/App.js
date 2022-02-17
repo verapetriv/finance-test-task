@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
-function App() {
+import { tickerOperations } from "./redux/tickers";
+
+import "./App.css";
+import PriceTickers from "./components/PriceTickers";
+import FormChangeInterval from "./components/FormChangeInterval";
+
+export default function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(tickerOperations.getDataSocket());
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <PriceTickers />
+      <FormChangeInterval />
+    </>
   );
 }
-
-export default App;

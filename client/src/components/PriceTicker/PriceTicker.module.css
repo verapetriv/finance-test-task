@@ -1,0 +1,42 @@
+.PriceTicker {
+  position: relative;
+  height: 30px;
+  padding: 6px;
+  margin: 10px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #565656;
+  vertical-align: middle;
+}
+
+.PriceTicker button {
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  transform: translateY(-50%);
+}
+
+.PriceTicker__increase {
+  box-shadow: inset 3px 7px 5px #8bc34a73;
+}
+
+.PriceTicker__decrease {
+  box-shadow: inset 3px 7px 5px #fb707087;
+}
+
+.PriceTicker__name {
+  width: 25%;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.PriceTicker__elem {
+  width: 20%;
+  text-align: center;
+}
+
+.PriceTicker__elem p {
+  font-size: 13px;
+  line-height: 20px;
+}

@@ -1,0 +1,15 @@
+.PriceTickersList {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #5a5a5a;
+}
+
+.list {
+    padding: 0;
+}

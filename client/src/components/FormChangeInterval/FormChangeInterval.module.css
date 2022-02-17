@@ -1,0 +1,35 @@
+.FormChangeInterval {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.FormChangeInterval button {
+  display: block;
+  margin: 7px auto 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: rgb(68, 68, 68);
+  margin: 0;
+}
+
+.FormChangeInterval__text {
+  text-align: center;
+  color: rgb(68, 68, 68);
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+  border-color: rgb(223 223 223);
+  background-color: #fbf7f7;
+  outline: none;
+}
+
+.FormChangeInterval__input_error {
+  border-color: rgb(231, 97, 97);
+}
